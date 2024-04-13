@@ -1,0 +1,58 @@
+{
+  "name": "my-new-app",
+  "productName": "my-new-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "license": "MIT",
+  "main": ".vite/build/main.js",
+  "keywords": [],
+  "author": {
+    "name": "Joker Dark Knight",
+    "email": "jokerdarkknight@proton.me"
+  },
+  "scripts": {
+    "dev": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "latest",
+    "@electron-forge/maker-deb": "latest",
+    "@electron-forge/maker-rpm": "latest",
+    "@electron-forge/maker-squirrel": "latest",
+    "@electron-forge/maker-zip": "latest",
+    "@electron-forge/plugin-auto-unpack-natives": "latest",
+    "@electron-forge/plugin-fuses": "latest",
+    "@electron-forge/plugin-vite": "latest",
+    "@electron/fuses": "latest",
+    "@iconify/vue": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "electron": "latest",
+    "sass": "latest",
+    "unocss": "latest",
+    "unplugin-vue-router": "latest",
+    "vite": "latest",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "latest",
+    "@unhead/vue": "latest",
+    "@vueuse/components": "latest",
+    "@vueuse/core": "latest",
+    "@vueuse/electron": "latest",
+    "@vueuse/integrations": "latest",
+    "@vueuse/router": "latest",
+    "axios": "latest",
+    "electron-squirrel-startup": "latest",
+    "pinia": "latest",
+    "unplugin-auto-import": "latest",
+    "unplugin-vue-components": "latest",
+    "vue-router": "latest"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
